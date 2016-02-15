@@ -2,7 +2,27 @@
 layout: default
 ---
 
-<div class="home">
+<div id="large-header" class="large-header">
+  <canvas id="demo-canvas"></canvas>
+  <h1 class="main-title">Hi, I am <span class="thin">Paritosh</span>
+  <br>
+  <small>Developer</small><small> Designer</small><small> Nice Guy</small>
+  </h1>
+
+</div>
+<script src="js/TweenLite.min.js"></script>
+<script src="js/EasePack.min.js"></script>
+<script src="js/rAF.js"></script>
+<script src="js/head-1.js"></script>
+<div class="codrops-header">
+  {% for post in site.posts %}
+	<h1>
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+  </h1>
+  {% endfor %}
+</div>
+<!-- <div class="home">
 
   <h1 class="page-heading">Posts</h1>
 
@@ -20,4 +40,4 @@ layout: default
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+</div> -->
