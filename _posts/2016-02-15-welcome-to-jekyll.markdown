@@ -3,16 +3,17 @@ layout: post
 title:  "Small list of things I can do!"
 date:   2016-02-15 21:49:03 +0530
 categories: jekyll update
+published: false
 ---
 
 ## This is a small list of things I can do
 
-### Write code JS, CSS, HTML, Java & more
+### Write code.
 
-### Read books and stuff
+### Read books and stuff.
 
-### Drink coffee beer scotch
+### Drink coffee beer scotch.
 
-### Draw circles
+### Draw circles.
 
-### Nunjitsu (just kidding)
+### Nunjitsu (just kidding).
