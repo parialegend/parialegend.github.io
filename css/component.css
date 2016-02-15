@@ -42,8 +42,8 @@
 	font-size: 0.25em;
 	border-right: 1px solid #fff;
 }
-main-title > small:last-child{
-	border-right: none;
+.main-title > small:last-child{
+	border: none;
 }
 .demo-1 .main-title,
 .demo-3 .main-title {
