@@ -107,3 +107,8 @@
 		font-size: 4em;
 	}
 }
+
+/* Custom added styles */
+.text-left{
+	text-align: left;
+}
