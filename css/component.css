@@ -111,4 +111,32 @@
 /* Custom added styles */
 .text-left{
 	text-align: left;
+
+}
+.external-link{
+	padding: 0 2px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.external-link:hover{
+	background:#1756a9;
+	color: #fff;
+	text-decoration: none;
+	padding: 0 2px;
+}
+.external-link + small{
+	opacity: 0.0;
+	margin-left: 10px;
+	-webkit-transition: all 0.8s ease-in-out;
+	-moz-transition: all 0.8s ease-in-out;
+	-ms-transition: all 0.8s ease-in-out;
+	-o-transition: all 0.8s ease-in-out;
+	transition: all 0.8s ease-in-out;
+}
+.external-link:hover + small {
+	opacity: 1.0;
+
 }
